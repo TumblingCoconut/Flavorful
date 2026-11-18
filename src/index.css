@@ -1,0 +1,26 @@
+:root {
+  --font-body: Inter, system-ui, sans-serif;
+  --font-heading: Fraunces, Georgia, serif;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+    font-family: var(--font-body);
+    background-color: rgb(254, 248, 240);
+    margin: 0 auto;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
